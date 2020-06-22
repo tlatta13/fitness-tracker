@@ -1,7 +1,8 @@
 const express = require("express");
 const mongojs = require("mongojs");
 const logger = require("morgan");
-const path = require("path");
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -15,12 +16,8 @@ app.use(express.static("public"));
 // const databaseUrl = 'enter database name'
 // const collections = 'enter collections'
 
-const db = mongojs(databaseUrl, collections);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
 
-db.on("error", error => {
-  console.log("Database Error:", error);
+app.listen(PORT, () => {
+  console.log(`App running on port ${PORT}!`);
 });
-
-app.listen(3000, () => {
-    console.log("App running on port 3000!");
-  });

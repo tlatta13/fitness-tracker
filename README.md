@@ -1,12 +1,8 @@
-# Asking for a Friend
-
-![](https://img.shields.io/badge/License-None-<orange>)
-
+# Fitness Tracker
 
 ## Description
 
-Don't want to ask your friends or family an embarrassing question? Maybe you feel like you should know this by now? Try asking for a friend instead!
-Asking for a Friend is a question and answer app that allows users to pose questions to the masses and hopefully receive an insightful answer from someone within our userbase!
+Keeping up with your workouts is difficult. This app allows you to save all your workouts and allows you to see your progress over time or revist an old workout you'd like to do again.  
 
 
 ![](public/assets/img/asking1.PNG)
@@ -23,7 +19,7 @@ Asking for a Friend is a question and answer app that allows users to pose quest
 
 ## Deployed Link
 
-[Check it out here](https://askingforafriend.herokuapp.com/)
+[Check it out here](#)
 
 ## Installation 
 
@@ -41,9 +37,7 @@ No licensing as of now.
 
 ## Collaborators
 
-- Emily Renegar [GitHub](https://github.com/egrenegar)
 - Travis Latta [GitHub](https://github.com/tlatta13)
-- Ben Cart [GitHub](https://github.com/Bmcart3)
 
 ## Contribute
 
@@ -52,4 +46,4 @@ If you would like to contribute to the content of the website, feel free. If you
 
 ## Questions
 
-If you have any questions, please open an issue, or contact any of the collaborators!
+If you have any questions, please open an issue.
