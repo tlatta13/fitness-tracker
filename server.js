@@ -15,8 +15,10 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+const db = require("./models");
+
+require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);

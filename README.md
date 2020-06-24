@@ -1,49 +1,27 @@
-# Fitness Tracker
+# Fitness Tracker Application
 
 ## Description
+Keeping up with your workouts is difficult. This app allows you to save all your workouts and allows you to see your progress over time or revist an old workout you'd like to do again. The user can simply create new workouts or add to existing workouts. Once they have completed their workouts they can view their stats in the workout dashboard. 
 
-Keeping up with your workouts is difficult. This app allows you to save all your workouts and allows you to see your progress over time or revist an old workout you'd like to do again.  
+## Table of Content
 
+1. [Key Accomplishments](#accomplishments) 
+2. [Photos](#photos)
+3. [Site Links](#siteLinks)
 
-![](public/assets/img/asking1.PNG)
+<a name="accomplishments"></a>
+## Key Accomplishments
+* Used Mongoose to create a workout schema for adding new workouts to the database
+* Built all the necessary routes to connect the back end to the front end javascript
+* Created a server to establish a connection to. 
 
+<a name="photos"></a>
+## Photos / Videos
+* [Application Demo Video](/public/assets/Burger-Eater-Demo.gif)
+![Home Page](/public/images/Fitness-Tracker-Home.jpg)
+![Stats Page](/public/images/Fitness-Tracker-Stats.jpg)
 
-## Table of Contents
-
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Collaborators](#Collaborators)
-- [Contribute](#Contribute)
-- [Questions](#Questions)
-
-## Deployed Link
-
-[Check it out here](#)
-
-## Installation 
-
-To install necessary dependencies, run the following command:
-
-    npm i
-
-## Usage
-
-The user must simply signup by creating a username and password. They will then be directed to the main page where they will be able to browse previously asked questions, post a new question of their own, or answer a question of their choosing.
-
-## License
-
-No licensing as of now.
-
-## Collaborators
-
-- Travis Latta [GitHub](https://github.com/tlatta13)
-
-## Contribute
-
-If you would like to contribute to the content of the website, feel free. If you are interested in assisting with further development of the project, please see contact information for the collaborators above.
-
-
-## Questions
-
-If you have any questions, please open an issue.
+<a name="siteLinks"></a>
+## Site Links
+* [Repository](https://github.com/tlatta13/fitness-tracker.git)
+* [Deployed Application](https://infinite-eyrie-87287.herokuapp.com/)
