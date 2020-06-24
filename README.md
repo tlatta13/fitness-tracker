@@ -17,7 +17,7 @@ Keeping up with your workouts is difficult. This app allows you to save all your
 
 <a name="photos"></a>
 ## Photos / Videos
-* [Application Demo Video](/public/assets/Burger-Eater-Demo.gif)
+* [Application Demo Video](https://vimeo.com/432276467)
 ![Home Page](/public/images/Fitness-Tracker-Home.jpg)
 ![Stats Page](/public/images/Fitness-Tracker-Stats.jpg)
 
