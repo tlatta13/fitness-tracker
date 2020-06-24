@@ -24,4 +24,4 @@ Keeping up with your workouts is difficult. This app allows you to save all your
 <a name="siteLinks"></a>
 ## Site Links
 * [Repository](https://github.com/tlatta13/fitness-tracker.git)
-* [Deployed Application](https://infinite-eyrie-87287.herokuapp.com/)
+* [Deployed Application](https://hidden-wave-29130.herokuapp.com/)
